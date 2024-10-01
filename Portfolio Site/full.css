@@ -30,7 +30,7 @@ li {
     float: right;
     width: 600px;
     height: 600px;
-    background-color: LightGray;
+    background-color: beige;
 }
 
 #left-column {
@@ -60,4 +60,10 @@ li {
 
 .clear {
     clear: both;
+}
+
+#pfp {
+    position: relative;
+    margin-left: 100px;
+    top: 15px
 }
