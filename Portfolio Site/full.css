@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
+    background: linear-gradient(#7F28F7,#F7285D);
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -23,7 +23,7 @@ li {
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: LightSlateGrey;
+    background-color: blue;
 }
 
 #right-column {
@@ -36,34 +36,80 @@ li {
 #left-column {
     float: left;
     width: 360px;
-    background-color: silver;
+    background-color: beige;
     height: 600px;
 }
 
 #footer {
-    height: 80px;
+    height: -100px;
+    background-color: rgb(198, 119, 243);
 }
 
 #banner {
     height: 120px;
-    background-color: SlateGrey;
+    padding: 70px;
+    background-color: rgb(198, 119, 243);
 }
 
-.box {
-    height: 150px;
-    width: 150px;
-    float: left;
-    background-color: tan;
-    margin: 15px;
-    opacity: .5;
-}
 
 .clear {
     clear: both;
 }
 
 #pfp {
+    border-radius: 50%;
     position: relative;
-    margin-left: 100px;
+    margin-left: 5px;
     top: 15px
+    
+}
+
+#pfp-home {
+    border-radius: 50%;
+    position: relative;
+    margin-left: 350px;
+    top: 250px
+}
+
+#links {
+    position: relative;
+    margin-left: 40px;
+    text-decoration-line: overline;
+    text-decoration-color: plum;
+
+    top: -70px;
+    
+
+}
+
+#links-projects {
+    position: relative;
+    margin-left: 800px;
+    text-decoration-line: overline;
+    text-decoration-color: plum;
+    top: -400px;
+}
+
+#right-column-contactme {
+    position: relative;
+    margin-left: 700px;
+    text-decoration-line: overline;
+    text-decoration-color: rgb(158, 158, 158);
+
+    top: -300px;
+    
+}
+
+#pfp-contactme {
+    border-radius: 50%;
+    position: relative;
+    margin-left: 5px;
+    top: 15px
+}
+
+#pfp-projects {
+    border-radius: 50%;
+    position: relative;
+    margin-left: 825px;
+    top: -360px
 }

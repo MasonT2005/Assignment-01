@@ -20,20 +20,22 @@ li {
 }
 
 #wrapper {
-    width: 100%;
+    width: 66%;
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: DarkGrey;
+    background-color: red;
 }
 
 #right-column {
+    width:66%;
     float: none;
     height: 600px;
     background-color: DarkOrange;
 }
 
 #left-column {
+    width: 33%;
     float: none;
     height: 120px;
 }
@@ -49,7 +51,7 @@ li {
 }
 
 .box {
-    width: 45%;
+    width: 33%;
     min-height: 120px;
     float: left;
     background-color: black;

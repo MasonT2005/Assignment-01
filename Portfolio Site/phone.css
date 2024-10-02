@@ -1,6 +1,6 @@
 @media only screen and (max-width : 480px) {
     body {
-        color: white;
+        color: rgb(0, 0, 0);
         font-family: Verdana, Geneva, Arial, sans-serif;
         padding: 0px;
         margin: 0px;
@@ -20,6 +20,7 @@
 
     #wrapper {
         width: 100%;
+        background-color: blue;
     }
 
     #right-column {
@@ -42,16 +43,10 @@
 
     #banner {
         height: 100px;
-        background-color: black;
+        background-color: red;
     }
 
-    .box {
-        width: 90%;
-        min-height: 120px;
-        background-color: dark-red;
-        margin: 15px;
-        opacity: 1;
-    }
+   
 
     .button {
         font-size: x-large;
