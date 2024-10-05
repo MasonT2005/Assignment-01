@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    color: white;
+    background: linear-gradient(#7F28F7,#F7285D);
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -24,53 +24,36 @@ li {
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
+    background-color: beige;
 }
 
 #right-column {
     width:66%;
     float: none;
     height: 600px;
-    background-color: DarkOrange;
+    background-color: beige;
 }
 
 #left-column {
     width: 33%;
     float: none;
     height: 120px;
+    
 }
 
 #footer {
-    height: 80px;
-    background-color: black;
+    height: 90px;
+    background-color: rgb(198, 119, 243);
 }
 
 #banner {
-    height: 60px;
-    background-color: black;
+    height: 80px;
+    background-color: rgb(198, 119, 243);
 }
 
-.box {
-    width: 33%;
-    min-height: 120px;
-    float: left;
-    background-color: black;
-    margin: 15px;
-    opacity: 1;
-}
 
-.button {
-    font-size: x-large;
-    text-decoration: none;
-    background-color: LightBlue;
-    display: block;
-    width: 25%;
-    float: left;
-    padding: 8px;
-    margin: 5px;
-    padding: 0px;
-    margin: 0px;
-}
+
+
 
 h1,
 h2,
@@ -84,61 +67,26 @@ li {
     margin-top: 0px;
 }
 
-#wrapper {
-    width: 100%;
-    height: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: DarkGrey;
-}
 
-#right-column {
-    float: none;
-    height: 600px;
-    background-color: DarkOrange;
-}
 
-#left-column {
-    float: none;
-    height: 120px;
-}
-
-#footer {
-    height: 80px;
-    background-color: black;
-}
-
-#banner {
-    height: 60px;
-    background-color: black;
-}
-
-.box {
-    width: 45%;
-    min-height: 120px;
-    float: left;
-    background-color: black;
-    margin: 15px;
-    opacity: 1;
-}
-
-.button {
-    font-size: x-large;
-    text-decoration: none;
-    background-color: LightBlue;
-    display: block;
-    width: 25%;
-    float: left;
-    padding: 8px;
-    margin: 5px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 3px gray;
-}
-
-.button:hover {
-    box-shadow: 5px 5px 3px black;
-}
 
 .clear {
     clear: both;
+}
+
+#links {
+    position: absolute;
+    margin-left: 40px;
+    text-decoration-line: overline;
+    text-decoration-color: plum;
+
+    top: 100px;
+    
+}
+
+#pfp-home{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 350px;
+    top: 150px
 }

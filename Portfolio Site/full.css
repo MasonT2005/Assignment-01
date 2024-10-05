@@ -1,10 +1,13 @@
+/*defining character set for html file*/
+
 @charset "UTF-8";
 
+/*using liner gradient to have a color that fades into another*/
 body {
     background: linear-gradient(#7F28F7,#F7285D);
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
-    margin: 0px;
+    margin: 0;
 }
 
 h1,
@@ -18,18 +21,20 @@ li {
     margin-left: 15px;
 }
 
+/*designing the style for the website*/
 #wrapper {
     width: 960px;
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: blue;
+    background-color: beige;
 }
 
+/*float to let it float to the left of the container im using*/
 #right-column {
     float: right;
     width: 600px;
-    height: 600px;
+    height: 650px;
     background-color: beige;
 }
 
@@ -37,11 +42,14 @@ li {
     float: left;
     width: 360px;
     background-color: beige;
-    height: 600px;
+    height: 650px;
 }
 
+/* margin right to decide how far from side it is*/
 #footer {
-    height: -100px;
+    height: 100px;
+    width: 100%;
+    margin-right: auto;
     background-color: rgb(198, 119, 243);
 }
 
@@ -51,11 +59,11 @@ li {
     background-color: rgb(198, 119, 243);
 }
 
-
+/* decides what should happen next to my floating element*/
 .clear {
     clear: both;
 }
-
+/* my profile picture, making it a circle and cahnging the position*/
 #pfp {
     border-radius: 50%;
     position: relative;
@@ -113,3 +121,4 @@ li {
     margin-left: 825px;
     top: -360px
 }
+
